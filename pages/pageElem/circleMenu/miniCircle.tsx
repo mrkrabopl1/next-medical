@@ -48,7 +48,8 @@ export default function MiniCircle(props:MiniCircleType) {
             })
 
             setCrossStyle({
-
+                left:-width*41/406,
+                top:-width*41/406,
                 width:width*41/106,
                 height:height*41/106,
 

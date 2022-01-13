@@ -42,7 +42,7 @@ export default function Circle(props) {
     let [radius,setRadius]=useState(0)
     let [styleHeightM,setHeightM]=useState({})
     let [topText,setTopText]=useState({})
-    let [kRad,setkRad]=useState(2.5)
+    let [kRad,setkRad]=useState(2.8)
     let [arrCircle,setArrCircle]=useState([])
 
     const {ref: circle} = useMyCustomHook<HTMLDivElement>()
